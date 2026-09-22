@@ -1,5 +1,6 @@
 #include <iostream>
- 
+using namespace std;
+
 int aux() {
         
  
@@ -10,11 +11,11 @@ int aux() {
  
  
 int main(){
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
     int n;
-    std::cin >> n;
+    cin >> n;
  
  
     return 0;
